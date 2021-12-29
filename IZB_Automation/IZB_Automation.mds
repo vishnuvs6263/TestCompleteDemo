@@ -4,21 +4,17 @@
 		<child name="NameMapping" key="{3FFA31E4-E74E-4ECD-BC11-F6AD6BED7370}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Script" key="{2AA4805C-71A9-4BD4-8B53-0F09056B96AE}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{9729EF11-C72A-49AA-B6E7-5FBF584297A0}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="ReadyAPI3" key="{044CD6B7-E50E-4DD8-906D-D177E7579695}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI3\ReadyAPI3.tcReadyAPI" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{502A36F3-1535-452C-A20D-643F68331A79}" version="14">
 		<children>
-			<testItem name="login_IZB" key="{E76C189C-FD3B-431E-9DDC-E9593F9DA45D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4243EDC4-9C4F-4769-A0A7-307123674D74}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-4" testCase="True">
+			<testItem name="login_IZB" key="{5ED2F051-69AE-4019-8F15-04A0F95E7BEC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4243EDC4-9C4F-4769-A0A7-307123674D74}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-72" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="AddBenificery_IZB" key="{F7F862E9-62A2-41AD-AA49-E33B17A4867D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8344C722-C1FA-4AE7-8C8F-6C1706E1768D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="QuickTransfer_IZB" key="{427B3647-1FA4-4E8B-9FAF-7B13DC4EECC4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0E3544B0-E069-4BFB-88AB-34B2E5742C29}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="QuickTransfer_IZB" key="{2B6A09F0-8B4C-45F3-8ECA-0B44C1280DBE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0E3544B0-E069-4BFB-88AB-34B2E5742C29}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />

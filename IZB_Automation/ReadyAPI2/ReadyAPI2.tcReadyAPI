@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" version="15.0">
+	<children>
+		<child name="SecureTest1" key="{A11BCF76-401E-407A-A758-90A0F3FFB02D}" type="Secure Test" typeId="{38F76CCA-6AA2-4C88-9D23-FD0C0909411F}" pluginName="ReadyAPI Runner" path="SecureTest1\SecureTest1.tcSecureTest" />
+	</children>
+</Root>

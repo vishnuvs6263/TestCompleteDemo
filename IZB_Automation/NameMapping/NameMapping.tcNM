@@ -497,6 +497,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeDashboard" Key="{8EC6C913-1203-42B6-BD9E-EF83304C84C7}">
+										<Image FileName="-1885469402" Left="260" Top="361" Right="339" Bottom="379" />
+										<TypeInfo Item0="{E5FEE6AA-37BC-4343-98E9-FDDA4BB95CE4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Dashboard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div/div/a/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{1A7EEBE3-1C8C-47CC-8956-32FB44B17814}">
@@ -529,6 +544,61 @@
 												<Value Value="Chrome Legacy Window" />
 											</Property>
 										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePostAttendeeZoom" Key="{8816D75B-6FF8-4BBB-B080-069650DAB72E}">
+								<Image FileName="-2706185" Left="0" Top="71" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://zoom.us/postattendee*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeSupport" Key="{C212D68A-003E-4671-9BE9-CFA1F7248A03}">
+										<Image FileName="-2706185" Left="0" Top="71" Right="1349" Bottom="728" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Support&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[contains(@class, &apos;join-frame&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{31E3FC42-06F6-4203-AFB4-89B215033111}">
+										<Image FileName="-279634195" Left="225" Top="298" Right="1125" Bottom="360" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/p[contains(@class, &apos;desc&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/p" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{EBB1CC75-7C7D-498A-B6A6-DE0D6A6DF1A3}">
+										<Image FileName="608583806" Left="225" Top="433" Right="1125" Bottom="873" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/div[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[3]" />
+											</Selector>
+										</Selectors>
 									</Child>
 								</Children>
 							</Child>
@@ -571,10 +641,16 @@
 				<Child Name="textboxTxnamount" Owner="{4EB1F86E-7A23-454C-9863-71E88E260AB6}" />
 				<Child Name="selectRemarks" Owner="{D3289427-C2B6-4D4F-AB9E-9985049D5878}" />
 				<Child Name="textboxCustomremarks" Owner="{7B8820DE-7071-4894-A136-315796A1B5B6}" />
+				<Child Name="textnodeDashboard" Owner="{8EC6C913-1203-42B6-BD9E-EF83304C84C7}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{1A7EEBE3-1C8C-47CC-8956-32FB44B17814}" />
 			<Child Name="wndChrome_WidgetWin_1" Owner="{90F5BD16-EE06-4FD8-9E56-5D670EFF951C}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{FACAD3CB-EC93-4309-9533-23952BA41088}" />
+			</Child>
+			<Child Name="pagePostAttendeeZoom" Owner="{8816D75B-6FF8-4BBB-B080-069650DAB72E}">
+				<Child Name="textnodeSupport" Owner="{C212D68A-003E-4671-9BE9-CFA1F7248A03}" />
+				<Child Name="textnode" Owner="{31E3FC42-06F6-4203-AFB4-89B215033111}" />
+				<Child Name="panel" Owner="{EBB1CC75-7C7D-498A-B6A6-DE0D6A6DF1A3}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
