@@ -8,7 +8,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{502A36F3-1535-452C-A20D-643F68331A79}" version="14">
 		<children>
-			<testItem name="login_IZB" key="{E76C189C-FD3B-431E-9DDC-E9593F9DA45D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4243EDC4-9C4F-4769-A0A7-307123674D74}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="login_IZB" key="{E76C189C-FD3B-431E-9DDC-E9593F9DA45D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4243EDC4-9C4F-4769-A0A7-307123674D74}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://NDP-4" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
@@ -687,7 +687,7 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
-		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_Cycle" type="5" value="Automation Sprint 1" />
 		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
 		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
 		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
@@ -701,14 +701,14 @@
 				<row val0="Zephyr for Jira Cloud" />
 			</data>
 		</setting>
-		<setting name="ZFJ_JiraLogin" type="5" value="" />
-		<setting name="ZFJ_JiraPassword" type="5" value="" />
-		<setting name="ZFJ_JiraProject" type="5" value="" />
-		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_JiraLogin" type="5" value="vishnu.vs@xilligence.com" />
+		<setting name="ZFJ_JiraPassword" type="5" value="3A029EEB41C5B2BEDCA3028AE2C2656C3F80BB6228CFFDB9E74F9428FC55EFE153B7952318A299702991EBFFEC6713C0E6C96EB5172F03DF" />
+		<setting name="ZFJ_JiraProject" type="5" value="NBB Demo Project" />
+		<setting name="ZFJ_JiraUrl" type="5" value="https://vvsxilligence.atlassian.net/" />
 		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
-		<setting name="ZFJ_Version" type="5" value="" />
-		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
-		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+		<setting name="ZFJ_Version" type="5" value="MVP" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="ZmZhMGY2YjYtZWNjMy0zNDVmLWI0N2ItNjMxNGZmM2Q4MTY5IDYxNjcyYjNmMDQ4MzYwMDA2YWNjMzE0OCBVU0VSX0RFRkFVTFRfTkFNRQ" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="e9N9H8XBrducQXMdkiiGflPvCLKOIsEkBKi0V7LSnv4" />
 	</settings>
 	<analysis key="{8A7C4068-E981-422E-B16B-068221319E3C}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
