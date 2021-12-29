@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="AddBenificery_IZB [KeywordTests - AddBenificery_IZB]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{D343B2A9-3D5D-42F2-B36C-361DB48F0C44}"/>
+				<Prp name="end time" type="D" value="44558.7618214005"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="44558.7610486921"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="login_IZB [KeywordTests - login_IZB]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{A6AF9726-A2AC-466B-9433-4B131C7F866C}"/>
+				<Prp name="end time" type="D" value="44558.7610485532"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="start time" type="D" value="44558.7609732523"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

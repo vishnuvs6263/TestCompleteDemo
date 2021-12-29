@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{46AE0D2D-1E3F-4D1D-8ED3-9DA538C48951}">
+				<TypeInfo Item0="{7E23C279-17C7-48FF-AEC9-B85F94501966}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{848B8637-40E1-46C0-89B9-143213F2241C}">
+						<TypeInfo Item0="{C308C905-2249-4EE1-928D-35D7B73B824A}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageIndoZambiaBank" Key="{301CD36D-2B55-4CE0-BD82-609BA6CD4E69}">
+								<Image FileName="1771227693" Left="8" Top="79" Right="1374" Bottom="679" />
+								<TypeInfo Item0="{45FB0D87-C483-4BC3-A9A3-3C7272642071}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://41.215.180.245:8085/Retail/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeIndoZambiaBank" Key="{459DA0FB-E2D4-4212-AA0B-A99C4FB3C996}">
+										<Image FileName="1771227693" Left="343" Top="96" Right="588" Bottom="116" />
+										<TypeInfo Item0="{E5FEE6AA-37BC-4343-98E9-FDDA4BB95CE4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;INDO ZAMBIA BANK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{A1B96921-8A44-4FDD-8532-E9A9DA9C0F47}">
+										<Image FileName="1573688763" Left="123" Top="337" Right="443" Bottom="382" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{57868E28-2E94-49F7-89D3-CFA4065F4CC2}">
+										<Image FileName="-498642475" Left="123" Top="421" Right="443" Bottom="466" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeVisibilityOff" Key="{3B808562-3664-471A-A171-0E24395A6B70}">
+										<Image FileName="-436373955" Left="410" Top="435" Right="425" Bottom="456" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[.=&apos;visibility_off&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//i[contains(@class, &apos;icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{AB213B74-0203-40CF-A79E-D5A6EB66CB5F}">
+										<Image FileName="246564173" Left="123" Top="535" Right="435" Bottom="580" />
+										<TypeInfo Item0="{0ACE8514-0F15-4AAE-A46A-465969DFC8DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;neo-btn-new-design&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{66A8CBF3-EDFD-44E4-AB91-85BC72A4A455}">
+										<Image FileName="1215891488" Left="705" Top="417" Right="1078" Bottom="459" />
+										<TypeInfo Item0="{E5FEE6AA-37BC-4343-98E9-FDDA4BB95CE4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Internal account transfer Beneficiary Added Successfully&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;mt-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTransfers" Key="{BC450E90-A725-4FB0-BB02-F7A4F9EDE483}">
+										<Image FileName="-626565351" Left="927" Top="330" Right="1147" Bottom="508" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTransfers" Key="{54EAC799-4412-4F22-9B82-94B008413CC5}">
+										<Image FileName="-626565351" Left="969" Top="440" Right="1105" Bottom="458" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[3]/a/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAddBeneficiary" Key="{8CC84317-BB10-422B-A409-0031FDAF056A}">
+										<Image FileName="1177775141" Left="642" Top="329" Right="769" Bottom="347" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Add Beneficiary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInternalBeneficiary" Key="{E85731D0-2ED0-468B-8F5E-792782F5579A}">
+										<Image FileName="-1808449083" Left="642" Top="368" Right="769" Bottom="404" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Internal Beneficiary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxConfirmaccountnumber" Key="{BEDB7F0F-4F73-4BDE-BAEF-CA99CE350252}">
+										<Image FileName="-170051965" Left="697" Top="504" Right="1070" Bottom="549" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;confirmAccountNumber&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTransferamount" Key="{97559BAD-984B-4754-BC94-4D1C7C4036DB}">
+										<Image FileName="142005122" Left="697" Top="586" Right="1070" Bottom="631" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;transferAmount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[2]/div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxDigit2" Key="{89F8BA2C-2184-44C7-9763-5C4E228C55F0}">
+										<Image FileName="-41689292" Left="827" Top="281" Right="875" Bottom="329" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxDigit3" Key="{2C7F4353-3B4C-46D3-B2F7-E9CFBD9469F5}">
+										<Image FileName="-1233800851" Left="891" Top="281" Right="939" Bottom="329" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[3]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxDigit4" Key="{02174ED5-65CB-4161-AA10-51E17B03053E}">
+										<Image FileName="-547786091" Left="955" Top="281" Right="1003" Bottom="329" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDashboard" Key="{D19F5B79-361C-406B-B721-FF807213B0E4}">
+										<Image FileName="1137035184" Left="207" Top="141" Right="427" Bottom="205" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Dashboard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div/div/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgUrlLineargradient1" Key="{65ED0919-8404-48AB-989A-10EEEB9AB153}">
+										<Image FileName="1761976920" Left="791" Top="196" Right="991" Bottom="396" />
+										<TypeInfo Item0="{A82FCC20-E702-43A4-BF5E-2E5394696A5E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(., &apos;//url(#linearGradient-1)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgUrlLineargradient12" Key="{7A642679-1756-4ACD-9608-A4B806A1704D}">
+										<Image FileName="1588073843" Left="791" Top="244" Right="991" Bottom="444" />
+										<TypeInfo Item0="{A82FCC20-E702-43A4-BF5E-2E5394696A5E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(., &apos;//url(#linearGradient-1)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelManageBeneficiaries" Key="{C33F1FA2-1B36-4D1D-ABFF-675F9517F341}">
+										<Image FileName="1937488166" Left="809" Top="356" Right="976" Bottom="524" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNik" Key="{05AD09E9-26B2-43A6-AB8F-F418E4B7B12B}">
+										<Image FileName="275707314" Left="895" Top="287" Right="1019" Bottom="399" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;nik&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/div[2]/div[2]/div[2]//div[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div[2]/div[2]//div[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDeleteBeneficiary" Key="{FE1C5064-E597-43FB-AA5D-FC1C536359ED}">
+										<Image FileName="-827661694" Left="898" Top="566" Right="1070" Bottom="611" />
+										<TypeInfo Item0="{0ACE8514-0F15-4AAE-A46A-465969DFC8DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Delete Beneficiary&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;neo-btn-new-design&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[4]/div[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageMedia" Key="{56DFCE47-32C7-4174-AAB5-FA600488E110}">
+										<Image FileName="1094095623" Left="190" Top="72" Right="327" Bottom="150" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/img[contains(@src, &apos;media&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;col-sm-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageBackArrowD8cf2ca4Svg" Key="{E73CECB8-FB30-45F4-9998-1DD5458E4E06}">
+										<Image FileName="1094095623" Left="297" Top="150" Right="311" Bottom="164" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;back-arrow.d8cf2ca4.svg&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;mr-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[2]//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuickTransfer" Key="{7C454072-9333-45CD-B3B5-C43CC163044B}">
+										<Image FileName="-1942537373" Left="829" Top="329" Right="956" Bottom="347" />
+										<TypeInfo Item0="{8E38F82F-F69B-43AD-BC32-84D5C8A82301}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Quick Transfer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectAccounttype" Key="{C63751C8-D6D0-481A-BC29-DEA1174CF75B}">
+										<Image FileName="1776130650" Left="697" Top="414" Right="1070" Bottom="459" />
+										<TypeInfo Item0="{4999B4BB-DCF2-4831-A22A-FDCDF631D5EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@name=&apos;accountType&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//select[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgUrlLineargradient13" Key="{3EF53C75-AD0F-4546-AE8E-BA2A40119AD5}">
+										<Image FileName="-1753636344" Left="791" Top="267" Right="991" Bottom="467" />
+										<TypeInfo Item0="{A82FCC20-E702-43A4-BF5E-2E5394696A5E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(., &apos;//url(#linearGradient-1)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTxnamount" Key="{4EB1F86E-7A23-454C-9863-71E88E260AB6}">
+										<Image FileName="-1172026212" Left="697" Top="661" Right="1070" Bottom="706" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;txnAmount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[5]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectRemarks" Key="{D3289427-C2B6-4D4F-AB9E-9985049D5878}">
+										<Image FileName="-2146313228" Left="697" Top="564" Right="1070" Bottom="609" />
+										<TypeInfo Item0="{4999B4BB-DCF2-4831-A22A-FDCDF631D5EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@name=&apos;remarks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[6]//select[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[6]//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[6]//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCustomremarks" Key="{7B8820DE-7071-4894-A136-315796A1B5B6}">
+										<Image FileName="-1064388859" Left="697" Top="646" Right="1070" Bottom="691" />
+										<TypeInfo Item0="{EC5FADB0-345B-4083-B43D-44C89C74F93C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;customRemarks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//form/div[7]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{1A7EEBE3-1C8C-47CC-8956-32FB44B17814}">
+								<Image FileName="1573688763" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{90F5BD16-EE06-4FD8-9E56-5D670EFF951C}">
+								<Image FileName="-2142152016" Left="0" Top="0" Right="373" Bottom="77" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{FACAD3CB-EC93-4309-9533-23952BA41088}">
+										<Image FileName="-2142152016" Left="0" Top="0" Right="373" Bottom="77" />
+										<TypeInfo Item0="{B8328D81-45D8-4D59-9EE6-14DA6A431D05}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{848B8637-40E1-46C0-89B9-143213F2241C}">
+			<Child Name="pageIndoZambiaBank" Owner="{301CD36D-2B55-4CE0-BD82-609BA6CD4E69}">
+				<Child Name="textnodeIndoZambiaBank" Owner="{459DA0FB-E2D4-4212-AA0B-A99C4FB3C996}" />
+				<Child Name="textboxUsername" Owner="{A1B96921-8A44-4FDD-8532-E9A9DA9C0F47}" />
+				<Child Name="passwordboxPassword" Owner="{57868E28-2E94-49F7-89D3-CFA4065F4CC2}" />
+				<Child Name="textnodeVisibilityOff" Owner="{3B808562-3664-471A-A171-0E24395A6B70}" />
+				<Child Name="buttonLogin" Owner="{AB213B74-0203-40CF-A79E-D5A6EB66CB5F}" />
+				<Child Name="textnode" Owner="{66A8CBF3-EDFD-44E4-AB91-85BC72A4A455}" />
+				<Child Name="linkTransfers" Owner="{BC450E90-A725-4FB0-BB02-F7A4F9EDE483}">
+					<Child Name="textnodeTransfers" Owner="{54EAC799-4412-4F22-9B82-94B008413CC5}" />
+				</Child>
+				<Child Name="textnodeAddBeneficiary" Owner="{8CC84317-BB10-422B-A409-0031FDAF056A}" />
+				<Child Name="textnodeInternalBeneficiary" Owner="{E85731D0-2ED0-468B-8F5E-792782F5579A}" />
+				<Child Name="textboxConfirmaccountnumber" Owner="{BEDB7F0F-4F73-4BDE-BAEF-CA99CE350252}" />
+				<Child Name="textboxTransferamount" Owner="{97559BAD-984B-4754-BC94-4D1C7C4036DB}" />
+				<Child Name="passwordboxDigit2" Owner="{89F8BA2C-2184-44C7-9763-5C4E228C55F0}" />
+				<Child Name="passwordboxDigit3" Owner="{2C7F4353-3B4C-46D3-B2F7-E9CFBD9469F5}" />
+				<Child Name="passwordboxDigit4" Owner="{02174ED5-65CB-4161-AA10-51E17B03053E}" />
+				<Child Name="linkDashboard" Owner="{D19F5B79-361C-406B-B721-FF807213B0E4}" />
+				<Child Name="vgUrlLineargradient1" Owner="{65ED0919-8404-48AB-989A-10EEEB9AB153}" />
+				<Child Name="vgUrlLineargradient12" Owner="{7A642679-1756-4ACD-9608-A4B806A1704D}" />
+				<Child Name="panelManageBeneficiaries" Owner="{C33F1FA2-1B36-4D1D-ABFF-675F9517F341}" />
+				<Child Name="panelNik" Owner="{05AD09E9-26B2-43A6-AB8F-F418E4B7B12B}" />
+				<Child Name="buttonDeleteBeneficiary" Owner="{FE1C5064-E597-43FB-AA5D-FC1C536359ED}" />
+				<Child Name="imageMedia" Owner="{56DFCE47-32C7-4174-AAB5-FA600488E110}" />
+				<Child Name="imageBackArrowD8cf2ca4Svg" Owner="{E73CECB8-FB30-45F4-9998-1DD5458E4E06}" />
+				<Child Name="textnodeQuickTransfer" Owner="{7C454072-9333-45CD-B3B5-C43CC163044B}" />
+				<Child Name="selectAccounttype" Owner="{C63751C8-D6D0-481A-BC29-DEA1174CF75B}" />
+				<Child Name="vgUrlLineargradient13" Owner="{3EF53C75-AD0F-4546-AE8E-BA2A40119AD5}" />
+				<Child Name="textboxTxnamount" Owner="{4EB1F86E-7A23-454C-9863-71E88E260AB6}" />
+				<Child Name="selectRemarks" Owner="{D3289427-C2B6-4D4F-AB9E-9985049D5878}" />
+				<Child Name="textboxCustomremarks" Owner="{7B8820DE-7071-4894-A136-315796A1B5B6}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{1A7EEBE3-1C8C-47CC-8956-32FB44B17814}" />
+			<Child Name="wndChrome_WidgetWin_1" Owner="{90F5BD16-EE06-4FD8-9E56-5D670EFF951C}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{FACAD3CB-EC93-4309-9533-23952BA41088}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

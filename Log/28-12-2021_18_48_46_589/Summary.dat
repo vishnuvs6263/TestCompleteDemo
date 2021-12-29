@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="QuickTransfer_IZB"/>
+						<Prp name="duration" type="I" value="83116"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="83116"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADcAMgA1ADgANAA1ADUALQAzAEIANAA5AC0ANAAyADYARAAtAEEARABEAEYALQBGADIAMAA1ADEAOAA0AEEARAA4AEIANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44558.7852827199"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="AddBenificery_IZB"/>
+						<Prp name="duration" type="I" value="114829"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="114829"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEEARAAzADYAMQBDADEALQAzADMAQQBBAC0ANABBAEQAOAAtAEEARAAzAEQALQA3AEUANABDAEUAMABGAEYANgBCADkANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44558.7839535995"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The browser is already running."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="login_IZB"/>
+						<Prp name="duration" type="I" value="6291"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="durationwithoutchildren" type="I" value="6291"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4AEMANgAzADcAMAA5ADgALQBBADAAMAA1AC0ANAAwADIAOQAtAEEARABGADIALQBDAEMAQQA5AEEANQAwADgAQgAzAEIANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="44558.7838806481"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="IZB_Automation"/>
+				<Prp name="duration" type="I" value="204236"/>
+				<Prp name="warningtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="44558.7838806481"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="IZB_Automation"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44558.7838796644"/>
+		<Prp name="testname" type="S" value="IZB_Automation"/>
+		<Prp name="stop" type="D" value="44558.7862470023"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="1"/>
+		<Prp name="user" type="S" value="vishnuvs"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{33E8D464-8727-43A7-8C25-9607DF6A89C0}"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="LAPWINX-DAC114"/>
+	</Node>
+</Nodes>

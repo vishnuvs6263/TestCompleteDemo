@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="login_IZB" key="{4243EDC4-9C4F-4769-A0A7-307123674D74}" path="login_IZB.tcKDTest" />
+		<child name="AddBenificery_IZB" key="{8344C722-C1FA-4AE7-8C8F-6C1706E1768D}" path="AddBenificery_IZB.tcKDTest" />
+		<child name="QuickTransfer_IZB" key="{0E3544B0-E069-4BFB-88AB-34B2E5742C29}" path="QuickTransfer_IZB.tcKDTest" />
+	</children>
+</Root>

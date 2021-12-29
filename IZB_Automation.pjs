@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{777157CD-8CBB-4211-8EB6-D9486960F47C}">
+	<children>
+		<child name="IZB_Automation" key="{B0B2F898-E51F-4675-AB64-BC8A401B5D6C}" path="IZB_Automation\IZB_Automation.mds" />
+	</children>
+	<testItems key="{F06B398F-223F-4BEC-99FE-1216ED7EC285}">
+		<children>
+			<testItem key="{B0B2F898-E51F-4675-AB64-BC8A401B5D6C}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{6CC4C70B-A932-4594-A9AB-059AF9E68249}" />
+	<analysis key="{2AC8CB79-799B-4EC6-80CF-CE28DC7D2784}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
